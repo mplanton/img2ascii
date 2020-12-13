@@ -24,7 +24,7 @@ except:
 try:
     chars = sys.argv[3]
 except:
-    chars = " .\'*|$&#"
+    chars = " .:13980#"
 
 im = Image.open(sys.argv[1])
 sz = im.size
